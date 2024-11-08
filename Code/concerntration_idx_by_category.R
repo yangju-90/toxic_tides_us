@@ -3,7 +3,7 @@ library(rineq)
 setwd('D:\\Box Sync\\Toxic Tides\\ToxicTides_US\\Code_Data_upload')
 
 
-urban = 2 # 1 urban, 0 non-urban, 2 all
+urban = 2 # 1 urban area only, 0 non-urban only, 2 all areas
 pw = 0 # 0 unweighted by population, 1 weighted by population
 
 # Define the output directory path
