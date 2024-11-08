@@ -4,6 +4,7 @@
 - Next, run Code/regression.do in STATA to perform the regression analysis.
 - Then, run Code/concerntration_idx_by_category.R in R to calculate the concerntration indices.
 - Finally, run Code/Results_wrap.ipynb in ipython notebook to output the tables and figures from the analysis results. <br/>
+
 <br> All the output results are stored in the folder Results, whereas the output tables and figures are stored in the folder Tables_Figures. <br/>
 <br> **Instructions for getting the input data**. Due to file size contraint in Github, we could not upload the input data here. To download the input data, please: <br/>
 - [**step 1**] Go to Google Drive (https://drive.google.com/file/d/18-1WsP3ckuLFemK7bEv9y0XOTxilRyYS/view?usp=drive_link), download the zipfile
