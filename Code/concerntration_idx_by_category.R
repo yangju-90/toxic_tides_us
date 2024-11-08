@@ -7,14 +7,15 @@ urban = 2 # 1 urban area only, 0 non-urban only, 2 all areas
 pw = 0 # 0 unweighted by population, 1 weighted by population
 
 # Define the output directory path
-dir_path <- "Results/concerntration_index/"
-# Check if the directory exists, create one if not
-if (!file.exists(dir_path)) {
-  # Create the directory if it does not exist
-  dir.create(dir_path, recursive = TRUE)
-  cat("Directory created:", dir_path, "\n")
-} else {
-  cat("Directory already exists:", dir_path, "\n")
+for (dir_path in cbind('Results/concerntration_index/','Tables_Figures/')){
+  # Check if the directory exists, create one if not
+  if (!file.exists(dir_path)) {
+    # Create the directory if it does not exist
+    dir.create(dir_path, recursive = TRUE)
+    cat("Directory created:", dir_path, "\n")
+  } else {
+    cat("Directory already exists:", dir_path, "\n")
+  }
 }
 
 # calculate the concentration index for each facility category and selected
